@@ -4,16 +4,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "filas.h"
-
-typedef struct
-{
-    int* data;
-    int front;
-    int rear;
-    int size;
-    int capacity;
-} Queue;
+#include "queue.h"
 
 void initializeQueue(Queue* queue)
 {
